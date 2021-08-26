@@ -13,9 +13,6 @@ Highcharts.chart('container', {
     subtitle: {
         text: 'Blue Ridge Parkway, NC'
     },
-    rangeSelector: {
-      enabled: true
-    },
     xAxis: {
         reversed: true,
         title: {
