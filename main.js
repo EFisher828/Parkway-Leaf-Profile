@@ -13,6 +13,9 @@ Highcharts.chart('container', {
     subtitle: {
         text: 'Blue Ridge Parkway, NC'
     },
+    rangeSelector: {
+      enabled: true
+    },
     xAxis: {
         reversed: true,
         title: {
@@ -34,9 +37,6 @@ Highcharts.chart('container', {
         title: {
             text: 'Elevation'
         },
-        startOnTick: false,
-        max: 7000,
-        min: 1000,
         gridLineWidth: 0,
         labels: {
             format: '{value} ft'
